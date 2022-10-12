@@ -1,0 +1,64 @@
+header {
+    color: white;
+    background-color: black;
+    padding: 1em;
+    display: block;
+    text-align: center;
+    font-family: "Azo Sans";
+}
+
+#introContainer {
+    border: 2px midnightblue solid;
+    display: block;
+    padding: 2em;
+    background-color: skyblue;
+    font-family: "Futura";
+}
+
+.introTitle {
+    text-align: center;
+    color: lightgoldenrodyellow;
+    background-color: darkslateblue;
+}
+
+h2 {
+    color: azure;
+}
+
+.personaTitle {
+    text-align: center;
+    color: lightgoldenrodyellow;
+    background-color: darkslategray;
+}
+
+
+#personaContainer {
+    border: 2px midnightblue solid;
+    display: block;
+    padding: 2em;
+    background-color: lightslategrey;
+    font-family: "Futura";
+}
+
+#userContainer {
+    border: 2px midnightblue solid;
+    display: block;
+    padding: 2em;
+    background-color: lightseagreen;
+    font-family: "Futura";
+}
+
+.userStoryTitle {
+    text-align: center;
+    color: lightgoldenrodyellow;
+    background-color: darkolivegreen;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    padding: 1em;
+    display: block;
+    text-align: center;
+    font-family: "Azo Sans";
+}
