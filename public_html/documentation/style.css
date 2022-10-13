@@ -1,64 +1,100 @@
+/* Structure Information */
+
 header {
     color: white;
     background-color: black;
-    padding: 1em;
+    padding: .5em;
     display: block;
     text-align: center;
     font-family: "Azo Sans";
+    font-size: x-large;
+    margin: 1em;
+    border: 3px solid azure;
+    border-radius: 25px;
 }
 
-#introContainer {
-    border: 2px midnightblue solid;
-    display: block;
-    padding: 2em;
-    background-color: skyblue;
+body {
     font-family: "Futura";
-}
-
-.introTitle {
-    text-align: center;
-    color: lightgoldenrodyellow;
-    background-color: darkslateblue;
+    margin: 3em;
+    background-color: lightgray;
 }
 
 h2 {
     color: azure;
 }
 
-.personaTitle {
-    text-align: center;
-    color: lightgoldenrodyellow;
-    background-color: darkslategray;
+
+footer {
+    color: white;
+    background-color: black;
+    padding: .5em;
+    display: block;
+    text-align: right;
+    font-family: "Azo Sans";
+    font-size: xx-small;
+    margin: 1em;
+    border: 3px solid azure;
+    border-radius: 25px;
+}
+
+/* Container Information */
+
+#introContainer {
+    border: 2px midnightblue solid;
+    margin: 2em;
+    display: block;
+    padding: 2em;
+    background-color: #7ad2f5;
+    border-radius: 25px;
 }
 
 
 #personaContainer {
     border: 2px midnightblue solid;
     display: block;
+    margin: 2em;
     padding: 2em;
-    background-color: lightslategrey;
-    font-family: "Futura";
+    background-color: #747d87;
+    border-radius: 25px;
 }
+
 
 #userContainer {
     border: 2px midnightblue solid;
     display: block;
+    margin: 2em;
     padding: 2em;
     background-color: lightseagreen;
-    font-family: "Futura";
+    border-radius: 25px;
+}
+
+/* Title Information */
+
+.title {
+    text-decoration: underline azure 3px;
+}
+
+
+.introTitle {
+    border: 2px azure solid;
+    border-radius: 10px;
+    text-align: center;
+    color: lightgoldenrodyellow;
+    background-color: darkslateblue;
+}
+
+.personaTitle {
+    border: 2px azure solid;
+    border-radius: 10px;
+    text-align: center;
+    color: lightgoldenrodyellow;
+    background-color: darkslategray;
 }
 
 .userStoryTitle {
+    border: 2px azure solid;
+    border-radius: 10px;
     text-align: center;
     color: lightgoldenrodyellow;
     background-color: darkolivegreen;
-}
-
-footer {
-    color: white;
-    background-color: black;
-    padding: 1em;
-    display: block;
-    text-align: center;
-    font-family: "Azo Sans";
 }
