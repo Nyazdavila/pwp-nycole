@@ -6,7 +6,7 @@ header {
     padding: .5em;
     display: block;
     text-align: center;
-    font-family: "Azo Sans";
+    font-family: "Roboto Light";
     font-size: x-large;
     margin: 1em;
     border: 3px solid azure;
@@ -14,7 +14,7 @@ header {
 }
 
 body {
-    font-family: "Futura";
+    font-family: "Roboto Light";
     margin: 3em;
     background-color: lightgray;
 }
@@ -23,15 +23,14 @@ h2 {
     color: azure;
 }
 
-
 footer {
     color: white;
     background-color: black;
     padding: .5em;
     display: block;
     text-align: right;
-    font-family: "Azo Sans";
-    font-size: xx-small;
+    font-family: "Roboto Light";
+    font-size: small;
     margin: 1em;
     border: 3px solid azure;
     border-radius: 25px;
@@ -68,7 +67,8 @@ footer {
     border-radius: 25px;
 }
 
-/* Title Information */
+
+/* Class Information */
 
 .title {
     text-decoration: underline azure 3px;
