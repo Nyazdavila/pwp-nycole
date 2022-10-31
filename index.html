@@ -10,6 +10,7 @@
 
   <body>
     <header>
+<!--Nav Bar Set -->
       <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">NycoleDavila.com</a>
@@ -25,9 +26,6 @@
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About Me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Full Stack</a>
@@ -51,11 +49,11 @@
       </nav>
     </header>
 
-
-    <div class="container-fluid">
-    <div class="row mx-3 py-9">
-      <div class="col-md-5 py-5 text-center border border-dark bg-light">
-        <img src="public_html/main/media/headshot_nycole_davila.jpg" class="img-fluid pt-4" height="350px" width="350px">
+<!-- left col index set-->
+    <div class="container-fluid" id="indexHome">
+      <div class="row mx-3 py-9">
+      <div class="col-md-7 py-5 text-center border border-dark bg-light">
+        <img src="public_html/main/media/headshot_nycole_davila.jpg" class="img-fluid pt-5" height="350px" width="350px">
         <p class="intoTextPara1 pt-3 m-3">Nycole originally designed her career between art and finance. The collision of the two worlds began in college. She attended college in Seattle, WA. for a degree in Animation Arts and Design, while maintaining a full time career at the local credit union. Upon completion of her degree, Nycole returned home to Albuquerque, NM, where she continued her career in finance working for Citi, focused in the competitive department of sales. There, she thrived, consistently ranking among the top 25 salespeople on site, receiving national recognition.</p>
 
         <p class="intoTextPara2 pt-1 m-3">As the turn of the 2008 financial crisis started to change the credit industry, Nycole was invited to join Fidelity Investments as they opened a new operational site opening in Albuquerque. During her tenure with Fidelity she became a subject-matter expert specializing in health and welfare operations and record management for other 3rd party clients. She assisted with systems design as new processing systems were created to streamline operations. In total, Nycole spent over 11 years working at the firm becoming a true expert in her field.</p>
@@ -67,31 +65,54 @@
         <button type="button" class="btn btn-secondary m-3"><img class="mx-2" src="public_html/main/media/linkedin-icon.png" height="40px" width="40px">LinkedIn</button>
       </div>
 
+<!--right col 4 block Image buttons-->
+      <div class="col pt-lg-5">
+       <div class="row pt-lg-5 text-center">
 
-      <div class="col py-5">
-       <div class="row align-items-center">
-          <div class="col-5">
-            <img src="public_html/main/media/full-stack.jpg" class="img-fluid rounded float-start">
+          <div class="col-5 pt-lg-5">
+            <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-mdb-ripple-color="light">
+              <img src="public_html/main/media/full-stack.jpg" class="img-fluid rounded float-end pt-lg-5"/>
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+              </a>
+            </div>
           </div>
-          <div class="col-5">
-            <img src="public_html/main/media/3d-printer.jpg" class="img-fluid rounded float-end">
+
+
+          <div class="col-5 pt-lg-5">
+            <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-mdb-ripple-color="light">
+              <img src="public_html/main/media/3d-printer.jpg" class="img-fluid rounded float-end pt-lg-5"/>
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+              </a>
+            </div>
           </div>
        </div>
+
         <div class="row align-items-center">
-        <div class="col-5">
-          <img src="public_html/main/media/full-stack.jpg" class="img-fluid rounded float-start">
+        <div class="col-5 pt-lg-5">
+          <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-mdb-ripple-color="light">
+                <img src="public_html/main/media/iot.jpg" class="img-fluid rounded float-end pt-lg-5"/>
+            <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+            </a>
+          </div>
         </div>
-        <div class="col-5">
-          <img src="public_html/main/media/3d-printer.jpg" class="img-fluid rounded float-end">
+
+        <div class="col-5 pt-lg-5">
+          <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-mdb-ripple-color="light">
+            <img src="public_html/main/media/graphic-design.jpg" class="img-fluid rounded float-end pt-lg-5"/>
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+            </a>
+          </div>
         </div>
       </div>
-
       </div>
-
+      </div>
     </div>
 
-
-
+<!--Footer-->
     <footer class="navbar navbar-dark bg-dark fixed-bottom">
       <div class="btn-group mx-3" role="group">
         <button type="button" class="btn btn-secondary px-1 "><img src="public_html/main/media/resume-icon.png" height="40px" width="40px"></button>
