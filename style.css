@@ -5,3 +5,21 @@ body {
 #footerText {
     font-size: x-small;
 }
+
+.wrapper {
+  display: grid;grid-template-rows: minmax(100px, auto);
+  grid-template-columns: repeat(3, 1fr);
+
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+}
+.two {
+  grid-column: 1;
+  grid-row: 3 / 1;
+}
+.three {
+  grid-column: 1;
+  grid-row: 3 / 2;
+}
