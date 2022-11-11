@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     console.log("js loaded")
-    var images = document.querySelectorAll('img');
+    var images = Object.values( document.getElementsByClassName('modalPic'))
     const lb = document.getElementById('lightbox');
     const lb_img = document.getElementById('lightbox_img');
     console.log(images)
